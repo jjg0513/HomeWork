@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="853dp"
+    android:background="@mipmap/xbj"
+    android:orientation="horizontal"
+    android:layout_height="476dp">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="427dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/relayout_lc"
+            android:layout_width="427dp"
+            android:layout_height="240dp">
+
+            <TextureView
+                android:layout_width="427dp"
+                android:layout_height="240dp"
+                android:id="@+id/texview_lc"/>
+
+            <ImageView
+                android:id="@+id/img_lc"
+                android:src="@mipmap/xj"
+                android:visibility="gone"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="98dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/text_lc"
+                android:text="粮仓"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="196dp"
+                android:textColor="#ffffffff"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/lc_sj"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_lc"
+                android:text="2023年7月13日  星期四 10:28:36"
+                android:textColor="#ffffffff"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+<!--        <View-->
+<!--            android:background="#FF053230"-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"></View>-->
+
+
+        <RelativeLayout
+            android:id="@+id/relayout_wr"
+            android:layout_width="427dp"
+            android:layout_height="240dp">
+
+            <TextureView
+                android:layout_width="427dp"
+                android:layout_height="240dp"
+                android:id="@+id/texview_wr"/>
+
+            <ImageView
+                android:id="@+id/img_wr"
+                android:src="@mipmap/xj"
+                android:visibility="gone"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="98dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/text_wr"
+
+                android:text="喂入"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="196dp"
+                android:textColor="#ffffffff"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/wr_sj"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_wr"
+                android:text="无信号"
+                android:textColor="#ffffffff"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+<!--    <View-->
+<!--        android:background="@mipmap/x720"-->
+<!--        android:layout_width="2dp"-->
+<!--        android:layout_height="match_parent"></View>-->
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:orientation="vertical"
+        android:layout_width="427dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relayout_xlc"
+            android:layout_width="427dp"
+            android:layout_height="240dp">
+
+            <TextureView
+                android:layout_width="427dp"
+                android:layout_height="240dp"
+                android:id="@+id/texview_xlt"/>
+
+            <ImageView
+                android:id="@+id/img_xlt"
+                android:src="@mipmap/xj"
+                android:visibility="gone"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="98dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/text_xlt"
+                android:text="卸粮筒"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="196dp"
+                android:textColor="#ffffffff"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/xlt_sj"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_xlt"
+                android:text="2023年7月13日  星期四 10:28:36"
+                android:textColor="#ffffffff"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+<!--        <View-->
+<!--            android:background="#FF053230"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"></View>-->
+
+
+        <RelativeLayout
+            android:id="@+id/relayout_hsj"
+            android:layout_width="426dp"
+            android:layout_height="240dp">
+
+            <TextureView
+                android:id="@+id/texview_hsj"
+                android:layout_width="426dp"
+                android:layout_height="240dp"
+              />
+
+            <ImageView
+                android:id="@+id/img_hsj"
+                android:src="@mipmap/xj"
+                android:visibility="gone"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="98dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/text_hsj"
+                android:text="后视镜"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="196dp"
+                android:textColor="#ffffffff"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/hsj_sj"
+                android:layout_marginRight="9dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_hsj"
+                android:text="无信号"
+                android:textColor="#ffffffff"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

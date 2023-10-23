@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1280dp"
+    android:layout_height="720dp"
+    android:background="@mipmap/xbj"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--       android:src="@drawable/gzy"-->
+    <!--        />-->
+
+
+    <LinearLayout
+        android:id="@+id/view_showlc"
+        android:layout_width="1280dp"
+        android:layout_height="720dp"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:layout_width="1280dp"
+            android:layout_height="720dp">
+
+
+            <TextureView
+                android:id="@+id/texview_showlc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img_showlc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="640dp"
+                android:layout_marginTop="300dp"
+                android:src="@mipmap/xj"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/text_fz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="38dp"
+                android:text="粮仓"
+                android:textColor="#ffffffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lc_showsj"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="15dp"
+                android:text="2023年7月13日  星期四 10:28:36"
+                android:textColor="#ffffffff"
+                android:textSize="11sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_showwr"
+        android:layout_width="1280dp"
+        android:layout_height="720dp"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:layout_width="1280dp"
+            android:layout_height="720dp">
+
+
+            <TextureView
+                android:id="@+id/texview_showwr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img_showwr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="640dp"
+                android:layout_marginTop="300dp"
+                android:src="@mipmap/xj"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/text_showwr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="38dp"
+                android:text="喂入"
+                android:textColor="#ffffffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/wr_showsj"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="15dp"
+                android:text="2023年7月13日  星期四 10:28:36"
+                android:textColor="#ffffffff"
+                android:textSize="11sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_showxlt"
+        android:layout_width="1280dp"
+        android:layout_height="720dp"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:layout_width="1280dp"
+            android:layout_height="720dp">
+
+
+            <TextureView
+                android:id="@+id/texview_showxlt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img_showxlt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="640dp"
+                android:layout_marginTop="300dp"
+                android:src="@mipmap/xj"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/text_showxlt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="38dp"
+                android:text="卸粮筒"
+                android:textColor="#ffffffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/xlt_showsj"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="15dp"
+                android:text="2023年7月13日  星期四 10:28:36"
+                android:textColor="#ffffffff"
+                android:textSize="11sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_showhsj"
+        android:layout_width="1280dp"
+        android:layout_height="720dp"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:layout_width="1280dp"
+            android:layout_height="720dp">
+
+
+            <TextureView
+                android:id="@+id/texview_showhsj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img_showhsj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="640dp"
+                android:layout_marginTop="300dp"
+                android:src="@mipmap/xj"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/text_showhsj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="38dp"
+                android:text="后视镜"
+                android:textColor="#ffffffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/hsj_showsj"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="15dp"
+                android:text="2023年7月13日  星期四 10:28:36"
+                android:textColor="#ffffffff"
+                android:textSize="11sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/zsd_szx" />
+
+        <include layout="@layout/su_ms" />
+
+        <include layout="@layout/lt_xs" />
+
+        <include layout="@layout/gzd_gzd" />
+
+        <include layout="@layout/gz_gz" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@mipmap/xdbbj"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layoutimg_sz"
+                android:layout_width="80dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/img_sz"
+                    android:layout_width="28dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/sz"></ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layoutimg_home"
+                android:layout_width="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="250dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_home"
+                    android:layout_width="28dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="13dp"
+                   android:layout_marginLeft="45dp"
+                    android:background="@drawable/home"></ImageView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layoutimg_fh"
+                android:layout_width="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="120dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_fh"
+                    android:layout_width="24dp"
+                    android:layout_height="25dp"
+                   android:layout_marginLeft="50dp"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/fhd"></ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutimg_fs"
+                android:layout_width="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_fs"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/x360"></ImageView>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <!--    <View-->
+    <!--        android:layout_width="2dp"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@mipmap/x720"></View>-->
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutxp3_view"
+        android:layout_width="853dp"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="#FF17D9CD"
+        android:visibility="gone">
+
+        <ImageView
+            android:src="@drawable/zytu"
+            android:id="@+id/textxp3_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutxp3cl_view"
+        android:layout_width="853dp"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#FF17D9CD"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/textxp3cl_view"
+            android:src="@drawable/zytu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutxp3ms_view"
+        android:layout_width="853dp"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#FF17D9CD"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/textxp3ms_view"
+            android:src="@drawable/zytu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutxp3ks_view"
+        android:layout_width="853dp"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#FF17D9CD"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/textxp3ks_view"
+            android:src="@drawable/zytu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="853dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/cm_cm" />
+
+        <include layout="@layout/xj_xj" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

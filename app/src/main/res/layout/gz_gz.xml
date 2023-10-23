@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="426dp"
+    android:layout_height="178dp"
+    android:background="@mipmap/xbj"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="8dp"
+            android:text="割 台 高 度 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_gtgd"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:text="0 r/cm"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:text="尿 素 液 位 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_jsyw"
+            android:layout_width="80dp"
+            android:layout_height="26dp"
+            android:text="80%"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF053230"></View>
+
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="8dp"
+            android:text="卸粮筒高度："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_xlgd"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:text="0°"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+
+        <TextView
+
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:text="液 压 油 温 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_yyyw"
+            android:layout_width="80dp"
+            android:layout_height="26dp"
+            android:text="80℃"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF053230"></View>
+
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="8dp"
+            android:text="拨禾轮转速："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_bhlzs"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:text="0 r/min"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:text="气 罐 压 力 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_qgyl"
+            android:layout_width="80dp"
+            android:layout_height="26dp"
+            android:text="0 Mpa"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF053230"></View>
+
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="8dp"
+            android:text="轴 流 滚 筒 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_zlgt"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:text="0 r/min"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:text="风 机 转 速 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_fjzs"
+            android:layout_width="85dp"
+            android:layout_height="26dp"
+            android:text="0 r/min"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FF053230"></View>
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="8dp"
+            android:text="籽 粒 搅 龙 ："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_zljl"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:text="0 r/min"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+
+        <TextView
+
+            android:layout_width="104dp"
+            android:layout_height="26dp"
+            android:text="工作总时长："
+            android:textColor="#FF676767"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/text_gzsc"
+            android:layout_width="80dp"
+            android:layout_height="26dp"
+            android:text="0 h"
+            android:textColor="#ffffffff"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
